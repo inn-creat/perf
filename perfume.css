@@ -1,0 +1,56 @@
+body{
+    background-color:rgba(255, 192, 212, 0.594);
+    
+}
+.perfume{
+    background-color: white;
+    margin: 25vw;
+    font-size: larger;
+    text-transform: capitalize;
+    padding: 2px;
+    display:block;
+    justify-content: center;
+    border-radius: 5px;
+}
+.perfume span{
+    text-transform: uppercase;
+}
+#perfmer-creator{
+ float: right;
+}
+#perfumer-creator h3{
+    font-family:Gill sans;
+    font-weight: lighter;
+}
+#perfumer-creator h1{
+    font-family:'Franklin Gothic Medium';
+}
+#perfumer-creator p{
+    font-family: Gill sans;
+}
+#image{
+    float: left;
+}
+#dollar{
+    color: green;
+    text-align:left;
+    font-size: larger;
+}
+#button{
+    background-color: green;
+    text-transform: capitalize;
+    color: whitesmoke;
+    padding: 25px;
+    height: 2px;
+   width:5cm;
+    border-radius: 5px;
+    text-align: center;
+    cursor:pointer;
+    border: none;
+}
+#button:active{
+    background-color:grey;
+    transition: 0.2s;
+}
+ 
+
